@@ -3,12 +3,9 @@
 <head>
 	<link rel='stylesheet' type='text/css' href='styles.css' />
 	<style>
-		div#paragraph {
-			padding-left:100px;
-			padding-right:100px;
-		}
-		img#StoryCover {
-			padding-right:20px;
+		#page {
+			padding-left: 100px;
+			padding-right: 100px;
 		}
 		p {
 			color: white;
@@ -17,11 +14,33 @@
 		h2 {
 			color: white;
 		}
+		#outerContainer {
+			border-color: #3b5998;
+		}
+		#innerContainer {
+			padding:10px;
+		}
+		table, tr, td {
+			background-color: #3b5998;
+			border-color: #3b5998;
+		}
+		td {
+			background-color: #3b5998;
+		}
+		#table1 {
+			padding-bottom:20px;
+		}
+		#summary, #betweenlines {
+			background-color:black;
+		}
+		#section1, #section2 {
+			padding-left:20px;
+			padding-right:20px;
+		}
 	</style>
 </head>
 
 <body>
-
 <div id="header" align="center"><a href="Index.html"><img src="Header.png" align="middle"></a></div>
 
 <br>
@@ -34,7 +53,7 @@
 		<ul>
 			<li class='has-sub'><a href='#'><span>The Books</span></a>
 				<ul>
-					<li><a href='#'><span>Adelinda</span></a></li>
+					<li><a href='About_Adelinda.html'><span>Adelinda</span></a></li>
 					<li class='last'><a href='About_Adimari.html'><span>Adimari</span></a></li>
 				</ul>
 			</li>
@@ -60,38 +79,53 @@
 </ul>
 </div>
 
-<br>
+<div id="page">
 
-<div id="paragraph">
+<br><br>
 
-<img src="StoryCover.jpg" align="left" id="StoryCover">
-
-<h2><u>Basic Summary</u></h2>
-<p id="Summary">
-Raelyn is just your average teenage girl, except she can do things most teenagers can&#8217t. 
-With no memory before she arrived at the orphanage when she was seven, she has no clue who or what she is. 
-However, after coming in contact with some mysterious newcomers, all her memories come flooding back. 
-She&#8217s actually from a whole other dimension. She was sent to Earth right before her parents were killed by people hunting her brother. 
-Now she must return to the other dimension to save a village her innocent brother allegedly attacked several years ago. 
-Now, she must learn to fit in with the new society and save a people that don&#8217t want to be saved.
-</p>
-
-<br>
-
-<h2><u>Reading Between the lines</u></h2>
-<p>
-I must apologize to all my high school teachers and college professors, 
-because I'll admit that I wrote a majority of this during my classes instead of paying attention.
-However, that's not entirely true. In a way, I've written this story many times. 
-I've had an interest in dragons ever since I was really little, 
-and I'm a sucker for romance and dark, mysterious guys.
-This story has been a long time in the making, and has been influenced by everything in my life.
-When you read this book, I feel like you get to know me and what my interests are.
-If you want to know more about how this book came to be, head over to the influences tab to see
-the pictures and hear the music that inspired the characters and events of this book.
-</p>
-
-</div>
-
+<table id="outerContainer" border="1"><tr><td>
+<table id="innerContainer" align="center">
+	<tr>
+		<td rowspan="2">
+			<table border="1"><tr><td>
+				<img src="StoryCover.jpg" align="center" id="StoryCover">
+			</td></tr></table>
+		</td>
+		<td id="table1">
+			<table border="1"><tr><td id="summary">
+				<div id="section1">
+				<h2><u>Basic Summary</u></h2>
+				<p>
+				Raelyn is just your average teenage girl, except she can do things most teenagers can&#8217t. 
+				With no memory before she arrived at the orphanage when she was seven, she has no clue who or what she is. 
+				However, after coming in contact with some mysterious newcomers, all her memories come flooding back. 
+				She&#8217s actually from a whole other dimension. She was sent to Earth right before her parents were killed by people hunting her brother. 
+				Now she must return to the other dimension to save a village her innocent brother allegedly attacked several years ago. 
+				Now, she must learn to fit in with the new society and save a people that don&#8217t want to be saved.
+			</p></div>
+			</td></tr></table>
+		</td>
+	</tr>
+	<tr>
+		<td id="table2">
+			<table border="1"><tr><td id="betweenlines">
+				<div id="section2">
+				<h2><u>Reading Between the lines</u></h2>
+				<p>
+				I must apologize to all my high school teachers and college professors, 
+				because I'll admit that I wrote a majority of this during my classes instead of paying attention.
+				However, that's not entirely true. In a way, I've written this story many times. 
+				I've had an interest in dragons ever since I was really little, 
+				and I'm a sucker for romance and dark, mysterious guys.
+				This story has been a long time in the making, and has been influenced by everything in my life.
+				When you read this book, I feel like you get to know me and what my interests are.
+				If you want to know more about how this book came to be, head over to the influences tab to see
+				the pictures and hear the music that inspired the characters and events of this book.
+				</p></div>
+			</td></tr></table>
+		</td>
+	</tr>
+</table>
+</td></tr></table>
 </body>
 </html>

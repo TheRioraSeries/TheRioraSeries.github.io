@@ -3,14 +3,30 @@
 <head>
 	<link rel='stylesheet' type='text/css' href='styles.css' />
 	<style>
+		#page {
+			padding-left: 150px;
+			padding-right: 150px;
+		}
+		table, tr, td {
+			border-color: #3b5998;
+			background-color: #3b5998;
+		}
 		p {
 			color: white;
 			line-height: 150%;
-			padding-left: 200px;
-			padding-right: 200px;
 		}
 		h1 {
 			color: white;
+		}
+		#container {
+			padding-left:20px;
+			padding-right:20px;
+			padding-bottom:20px;
+			background-color:#3b5998;
+		}
+		#paragraph {
+			padding:10px;
+			background-color:#000000;
 		}
 	</style>
 </head>
@@ -55,14 +71,22 @@
 </ul>
 </div>
 
+<div id="page">
+
 <br><br>
 
-<h1 align="center">COMING SOON!</h1>
-<br><p>
-I've only just recently finished writing Adelinda, and it stills needs a lot more editing.
-However, I am planning on writing a second book that will be called Adimari which will take place a few months after Adelinda ended.
-I have several ideas written down that are just waiting to be expanded upon. Keep checking back for updates.
-</p>
+<table border="1" id="outer"><tr><td id="container">
+	<table align="center"><tr><td id="title">
+		<h1 align="center">COMING SOON!</h1>
+	</td></tr></table>
+	<table border="1" align="center" id="inner"><tr><td id="paragraph">
+		<p>I've only just recently finished writing Adelinda, and it stills needs a lot more editing.
+		However, I am planning on writing a second book that will be called Adimari, and it will take place a few months after Adelinda ended.
+		I have several ideas written down that are just waiting to be expanded upon. Keep checking back for updates.</p>
+	</td></tr></table>
+</td></tr></table>
+
+</div>
 
 </body>
 </html>
