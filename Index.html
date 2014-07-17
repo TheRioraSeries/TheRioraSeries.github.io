@@ -3,19 +3,30 @@
 <head>
 	<link rel='stylesheet' type='text/css' href='styles.css' />
 	<style>
-		#note, p {
-			color:white;
-		}
-		h2 {
-			color:red;
-		}
-		#note{
-			font-size: 50px;
-			text-decoration:underline;
-		}
 		#page {
 			padding-left: 150px;
 			padding-right: 150px;
+		}
+		table, tr, td {
+			border-color: #3b5998;
+			background-color: #3b5998;
+		}
+		p {
+			color: white;
+			line-height: 150%;
+		}
+		h1, h3 {
+			color: white;
+		}
+		#container {
+			padding-left:20px;
+			padding-right:20px;
+			padding-bottom:20px;
+			background-color:#3b5998;
+		}
+		#paragraph {
+			padding:10px;
+			background-color:#000000;
 		}
 	</style>
 </head>
@@ -60,10 +71,29 @@
 </ul>
 </div>
 
-<br>
-
 <div id="page">
 
+<br><br>
+
+<table border="1" id="outer"><tr><td id="container">
+	<table><tr><td id="title">
+		<h1>NEWS</h1>
+	</td></tr></table>
+	<table border="1" id="inner" width="975"><tr><td id="paragraph">
+		<h3>07/??/2014</h3>
+		<p>After many months of hard work and a few months of breaks, I'm proud to announce that
+		<i>Adelinda</i> is finally finished. Wait are you waiting for? 
+		<a href="StartReading.html">Start Reading</a>!</p>
+	</td></tr></table>
+	<br><br>
+	<table border="1" id="inner" width="975"><tr><td id="paragraph">
+		<h3>7/17/2014</h3>
+		<p>The website is now officially live! Go poke around and click on everything possible.
+		Right now I've only tested the site in Firefox, but most of it should be fine in IE or Chrome.
+		Let me know if something doesn't work for some reason!</p>
+	</td></tr></table>
+	</table>
+</td></tr></table>
 
 </div>
 
