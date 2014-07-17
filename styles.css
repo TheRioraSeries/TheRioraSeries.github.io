@@ -160,7 +160,6 @@ CSS Menu
 
 
 /* Starter CSS for Flyout Menu */
-/* Starter CSS for Flyout Menu */
 #cssmenu2,
 #cssmenu2 ul,
 #cssmenu2 ul li,
@@ -234,13 +233,13 @@ CSS Menu
   z-index:10;
 }
 #cssmenu2 > ul > li {
-  border-left: 3px solid #d7d8da;
+  border-right: 3px solid #9FA1A5;
 }
 #cssmenu2 > ul > li > a {
   padding: 10px 20px;
 }
 #cssmenu2 > ul > li:hover {
-  border-left: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
 }
 #cssmenu2 ul li:hover > a {
   color: #ffffff;

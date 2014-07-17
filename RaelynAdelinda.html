@@ -12,9 +12,34 @@
 			color: white;
 			font-size: 50px;
 			text-decoration:underline;
+			font-family: "Times New Roman", Times, serif;
+			padding-top: 10px;
 		}
 		#CharacterInfo {
 			padding-left: 30px;
+		}
+		b {
+			font-family: "Times New Roman", Times, serif;
+		}
+		#outer, #outer tr {
+			border-color: #3b5998;
+			background-color: #3b5998;
+		}
+		p {
+			color: white;
+			line-height: 150%;
+		}
+		#container {
+			padding-left:20px;
+			padding-right:20px;
+			padding-bottom:20px;
+			background-color:#3b5998;
+			border-color: #3b5998;
+		}
+		#paragraph {
+			padding:10px;
+			border-color: #3b5998;
+			background-color:#000000;
 		}
 	</style>
 </head>
@@ -63,7 +88,7 @@
 
 <br><br>
 
-<table><tr><td valign="top">
+<table><tr><td valign="top" width="160">
 
 <div id='cssmenu2'>
 <ul>
@@ -86,51 +111,66 @@
 </ul>
 </div>
 
-</td><td valign="top">
+</td>
 
-<table id="CharacterInfo"><tr><td>
-	<div id="title">Raelyn Adelinda</div>
-	<b><em>Other Names:</em></b><br>
-	Rae; Raelyn Murray
-	<br><br>
-	<b><em>Age:</em></b><br>
-	17
-	<br><br>
-	<b><em>Race:</em></b><br>
-	Dragon
-	<br><br>
-	<b><em>Ability:</em></b><br>
-	Dragon/Pure Miutho
-	<br><br>
-	<b><em>Birthday:</em></b><br>
-	December 25th
-	<br><br>
-	<b><em>Family:</em></b><br>
-	Father: Asher (Deceased)<br>
-	Mother: Catriona (Deceased)<br>
-	Older Brother: Dakim
-	<br><br>
-	<b><em>Description:</em></b><br>
-	<p>Barely over five feet tall and a hundred pounds; 
-	Has dark brown hair with blue highlights and matching bright blue eyes;
-	Not overly sociable or outgoing, but is capable of making friends;
-	Has a tribal dragon tattoo between her shoulder blades;
-	Isn't quick to judge and tries to see the good in everybody, which makes 
-	it hard for her to fight and kill, but she does it to protect her friends;
-	Doesn't like to accept charity and wants to accomplish things on her own;
-	She tries to please everybody, often causing her to pass out from 
-	exhaustion by the end of the day.
-	<br><br>
-	<b><em>About:</em></b><br>
-	When on Earth, she lived in Florida. She avoided contact with people 
-	because they could often feel the power that flowed through her, although
-	they didn't know what it was. After learning that her brother was accussed
-	of being a mass murderer and coming to Kusnik, she starts training to 
-	defeat Raven.
-	</div></div>
+<td id="CharacterInfo">
+<table border="1" id="outer"><tr><td id="container">
+	<div id="title">Raelyn Adelinda</div><br>
+	<table border="1">
+		<tr>
+			<td id="paragraph">
+				<b><em>Other Names: </em></b>
+				Rae; Raelyn Murray
+			</td>
+			<td rowspan="5" id="paragraph" valign="top">
+				<b><em>Family:</em></b><br>
+				Father - Asher (Deceased)<br>
+				Mother - Catriona (Deceased)<br>
+				Older Brother - Dakim
+			</td>
+		</td></tr>
+		<tr><td id="paragraph">
+				<b><em>Age: </em></b>
+				17
+		</td></tr>
+		<tr><td id="paragraph">
+				<b><em>Race: </em></b>
+				Dragon
+		</td>
+		<tr><td id="paragraph">
+				<b><em>Ability: </em></b>
+				Dragon/Pure Miutho
+		</td></tr>
+		<tr><td id="paragraph">
+				<b><em>Birthday: </em></b>
+				December 25th
+		</td></tr>
+		<tr><td colspan="2" id="paragraph">
+			<b><em>Description:</em></b><br>
+			Barely over five feet tall and a hundred pounds; 
+			Has dark brown hair with blue highlights and matching bright blue eyes;
+			Not overly sociable or outgoing, but is capable of making friends;
+			Has a tribal dragon tattoo between her shoulder blades;
+			Isn't quick to judge and tries to see the good in everybody, which makes 
+			it hard for her to fight and kill, but she does it to protect her friends;
+			Doesn't like to accept charity and wants to accomplish things on her own;
+			She tries to please everybody, often causing her to pass out from 
+			exhaustion by the end of the day.
+		</td></tr>
+		<tr><td colspan="2" id="paragraph">
+			<b><em>About:</em></b><br>
+			When on Earth, she lived in Florida. She avoided contact with people 
+			because they could often feel the power that flowed through her, although
+			they didn't know what it was. After learning that her brother was accussed
+			of being a mass murderer and coming to Kusnik, she starts training to 
+			defeat Raven.
+		</td></tr>
+	</table>
 </td></tr></table>
+</td>
+</tr></table>
 
-</td></tr></table>
+</div>
 
 </body>
 </html>
